@@ -1,0 +1,19 @@
+img {
+    max-width: 100%; /* Ensure that the image is not wider than its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+  }
+  body {
+    margin: 0;
+    /* Add other properties like overflow-x if necessary */
+  }
+  img {
+    width: 100vw; /* Make sure the image does not exceed the viewport width */
+    height: auto; /* Adjust height automatically */
+  }
+  .container {
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    height: 100%; /* Adjust based on your layout */
+  }
+  
+        
